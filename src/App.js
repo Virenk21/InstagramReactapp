@@ -12,7 +12,7 @@ function App() {
           alt=""
         />
         </div>
-        <post />
+        <Post />
         <container>
           <content>
             <Search>
