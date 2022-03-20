@@ -1,5 +1,6 @@
 import './App.css';
 import styled from "styled-components";
+import Post from "./Post";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           alt=""
         />
         </div>
+        <post />
         <container>
           <content>
             <Search>
