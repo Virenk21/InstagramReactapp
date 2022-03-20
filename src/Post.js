@@ -5,7 +5,7 @@ function Post() {
     <div>
 <h3>username</h3>
 
-<h4 className="post__text">viren post</h4>
+<h4 className="post__text"><strong>keep going viren</strong>viren post</h4>
 
     </div>
   )
