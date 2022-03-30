@@ -15,14 +15,22 @@ const Header = () => {
           </SearchIcon>
         </Search>
         <Nav>
-          <NavListWrap>
-            <NavList className="active">
+          <NavList className="active">
               <a>
-                <img src="/image/instahome.png" alt="" />
+                <img src="/image/instahometwo.png" alt="" />
               </a>
             </NavList>
-          </NavListWrap>
-        </Nav>
+            <NavList>
+              <a>
+                <img src="/image/instamsgone.png" alt="" />
+              </a>
+            </NavList>
+            <NavList>
+              <a>
+                <img src="/image/instapost.png" alt="" />
+                </a>
+            </NavList>
+          </Nav>
       </Content>
     </Container>
   );
@@ -105,7 +113,7 @@ const NavListWrap = styled.ul`
       content: "";
       transform: scaleX(1);
       border-bottom: 2px solid var(--white, #fff);
-      bottom: 55px;
+      bottom: 45px;
       left: 0;
       position: absolute;
       transition: transform 0.2s ease-in-out;
@@ -119,13 +127,16 @@ const NavList = styled.li`
   display: flex;
   align-items: center;
   a {
-    margin: -7px;
+    margin: -25px;
+    padding: -15px;
     background: transparent;
-    font-size: 12%;
+    font-size: 40px;
     font-weight: 400;
     justify-content: center;
-    min-height: 25px;
-    min-width: 800px;
+    min-height: 35px;
+    min-width: 790px;
+    height: 60px;
+    left: 900px;
 
     span {
       @media (max-width: 768px) {
@@ -134,6 +145,7 @@ const NavList = styled.li`
     }
   }
 
+  
   &:hover,
   &:active {
     a {
@@ -143,5 +155,6 @@ const NavList = styled.li`
     }
   }
 `;
+
 
 export default Header;
