@@ -21,7 +21,9 @@
   background-color: white;
   padding: 13px;
   object-fit: contain;
-  transform: translate(125%, 8%);
+  top: 10%;
+  width: 100px;
+  transform: translate(129%, 8%);
   
   
   
