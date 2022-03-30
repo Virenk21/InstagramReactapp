@@ -124,12 +124,13 @@ const NavList = styled.li`
   align-items: center;
   a {
     align-items: center;
+    padding: 0%;
+    margin: -25px;
     background: transparent;
     font-size: 52%;
     font-weight: 4000;
     justify-content: center;
-    line-height: 1.5;
-    min-height: 52px;
+    min-height: 12px;
     min-width: 800px;
     position: relative;
     text-decoration: none;
