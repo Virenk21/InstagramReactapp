@@ -19,7 +19,6 @@ const Header = () => {
             <NavList className="active">
               <a>
                 <img src="/image/instahome.png" alt="" />
-                <span>Home</span>
               </a>
             </NavList>
           </NavListWrap>
@@ -29,7 +28,6 @@ const Header = () => {
   );
 };
 
-
 const Container = styled.div`
   background-color: white;
   left: 31%;
@@ -37,7 +35,6 @@ const Container = styled.div`
   position: fixed;
   top: 2%;
   width: 100vw;
-  
 `;
 
 const Content = styled.div`
@@ -46,7 +43,6 @@ const Content = styled.div`
   margin: 0 auto;
   min-height: 100%;
   max-width: 1128px;
-  
 `;
 
 const Search = styled.div`
@@ -109,11 +105,11 @@ const NavListWrap = styled.ul`
       content: "";
       transform: scaleX(1);
       border-bottom: 2px solid var(--white, #fff);
-      bottom: 0;
+      bottom: 55px;
       left: 0;
       position: absolute;
       transition: transform 0.2s ease-in-out;
-      width: 100%;
+      width: 4%;
       border-color: rgba(0, 0, 0, 0.9);
     }
   }
@@ -123,22 +119,15 @@ const NavList = styled.li`
   display: flex;
   align-items: center;
   a {
-    align-items: center;
-    padding: 0%;
-    margin: -25px;
+    margin: -7px;
     background: transparent;
-    font-size: 52%;
-    font-weight: 4000;
+    font-size: 12%;
+    font-weight: 400;
     justify-content: center;
-    min-height: 12px;
+    min-height: 25px;
     min-width: 800px;
-    position: relative;
-    text-decoration: none;
-    span {
-      color: rgba(0, 0, 0, 0.6);
-      display: flex;
-      align-items: center;
 
+    span {
       @media (max-width: 768px) {
         min-width: 70px;
       }
