@@ -8,12 +8,29 @@
 }
 
 .app__header {
-border-bottom: 1px solid lightgray;
+  background-color: white;
+  padding: 0.1px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  
+    
+  
 } 
 
 .app__headerImage {
   background-color: white;
-  padding: 20px;
+  padding: 13px;
   object-fit: contain;
-}
+  transform: translate(125%, 8%);
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  }
 

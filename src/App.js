@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import styled from "styled-components";
 import Post from "./Post";
 
@@ -11,57 +11,11 @@ function App() {
           src="https://instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
           alt=""
         />
-        </div>
-        <Post />
-        <container>
-          <content>
-            <Search>
-              <div>
-                <input type="text" placeholder="Search" />
-              </div>
-              <SearchIcon>
-                <img src="/image/search-icon.svg" alt="" />
-              </SearchIcon>
-            </Search>
-            <Nav>
-          <NavListWrap>
-            <NavList className="active">
-              <a>
-                <img src="/image/instahome.png" alt="" />
-                <span>Home</span>
-              </a>
-            </NavList>
-            <NavList>
-              <a>
-                <img src="/image/instamsg.png" alt="" />
-                <span>Messages</span>
-              </a>
-            </NavList>
-            <NavList>
-              <a>
-                <img src="/image/instapost.png" alt="" />
-                <span>post</span>
-              </a>
-            </NavList>
-            <NavList>
-              <a>
-                <img src="/image/instaexplore.png" alt="" />
-                <span>explore</span>
-              </a>
-            </NavList>
-            <NavList>
-              <a>
-                <img src="/image/heart.png" alt="" />
-                <span>heart</span>
-              </a>
-            </NavList>
-            </NavListWrap>
-          </Nav>
-          </content>
-        </container>
-       </div>
-     );
-};
+      </div>
+    </div>
+    
+  );
+}
 
 const Container = styled.div`
   background-color: white;
