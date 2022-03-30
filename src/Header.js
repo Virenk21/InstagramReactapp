@@ -125,8 +125,6 @@ const NavList = styled.li`
   a {
     align-items: center;
     background: transparent;
-    display: flex;
-    flex-direction: column;
     font-size: 52%;
     font-weight: 4000;
     justify-content: center;
