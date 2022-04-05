@@ -15,6 +15,9 @@ function App() {
         />
       </div>
       <Header />
+      <Post />
+      <img src="https://wallpapercave.com/wp/wp4565526.jpg"/>
+      <h4>beautiful day</h4>
     </div>
   );
 }

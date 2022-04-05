@@ -1,38 +1,52 @@
 import styled from "styled-components";
-
+import { IoChatbubble } from "react-icons/io5";
 import React from "react";
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <Container>
-      <Content>
-        <Search>
-          <div>
-            <input type="text" placeholder="Search" />
-          </div>
-          <SearchIcon>
-            <img src="/image/search-icon.svg" alt="" />
-          </SearchIcon>
-        </Search>
-        <Nav>
-          <NavList className="active">
-              <a>
-                <img src="/image/instahometwo.png" alt="" />
-              </a>
-            </NavList>
-            <NavList>
-              <a>
-                <img src="/image/instamsgone.png" alt="" />
-              </a>
-            </NavList>
-            <NavList>
-              <a>
-                <img src="/image/instapost.png" alt="" />
+    <>
+     <Container>
+        <Content>
+          <Search>
+            <div>
+              <input type="text" placeholder="Search" />
+            </div>
+            <SearchIcon>
+              <img src="/image/search-icon.svg" alt="" />
+            </SearchIcon>
+          </Search>
+          <Nav>
+            <NavListWrap>
+              <NavList>
+                <a>
+                  <img src="/image/instahometwo.png" alt="" />
                 </a>
-            </NavList>
+              </NavList>
+              <NavList>
+                <a>
+                  <IoChatbubble className="msg" />
+                </a>
+              </NavList>
+              <NavList>
+                <a>
+                  <img src="/image/instapost.png" alt="" />
+                </a>
+              </NavList>
+              <NavList>
+                <a>
+                  <img src="/image/instaexplore.png" alt="" />
+                </a>
+              </NavList>
+              <NavList>
+                <a>
+                  <img src="/image/instaheart.png" alt="" />
+                </a>
+              </NavList>
+            </NavListWrap>
           </Nav>
-      </Content>
-    </Container>
+        </Content>
+      </Container>
+    </>
   );
 };
 
@@ -68,7 +82,6 @@ const Search = styled.div`
       width: 218px;
       padding: 0 8px 0 40px;
       line-height: 1.75;
-
       font-weight: 400;
       font-size: 14px;
       height: 34px;
@@ -127,7 +140,7 @@ const NavList = styled.li`
   display: flex;
   align-items: center;
   a {
-    margin: -25px;
+    margin: -8px;
     padding: -15px;
     background: transparent;
     font-size: 40px;
@@ -144,8 +157,19 @@ const NavList = styled.li`
       }
     }
   }
+  .msg {
+    margin: 8px;
+    padding: 15px;
+    top: 0;
+    font-size: 40px;
+    font-weight: 400;
+    justify-content: center;
+    min-height: 35px;
+    min-width: 790px;
+    height: 60px;
+    left: 900px;
+  }
 
-  
   &:hover,
   &:active {
     a {
