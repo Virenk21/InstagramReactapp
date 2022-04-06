@@ -4,5 +4,8 @@
 }
 .post__text {
     font-weight: normal;
+}
+.post__header {
+    display: flex;
 
 }

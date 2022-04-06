@@ -5,7 +5,7 @@ import React from "react";
 const Header = (props) => {
   return (
     <>
-     <Container>
+      <Container>
         <Content>
           <Search>
             <div>
@@ -19,27 +19,24 @@ const Header = (props) => {
             <NavListWrap>
               <NavList>
                 <a>
-                  <img src="/image/instahometwo.png" alt="" />
+                  <img src="/image/instahomethree.svg" alt="" />
                 </a>
               </NavList>
+
               <NavList>
                 <a>
-                  <IoChatbubble className="msg" />
+                  <img src="/image/instaheartthree.svg" alt="" />
                 </a>
               </NavList>
+
               <NavList>
                 <a>
-                  <img src="/image/instapost.png" alt="" />
+                  <img src="/image/instapostone.svg" alt="" />
                 </a>
               </NavList>
               <NavList>
                 <a>
                   <img src="/image/instaexplore.png" alt="" />
-                </a>
-              </NavList>
-              <NavList>
-                <a>
-                  <img src="/image/instaheart.png" alt="" />
                 </a>
               </NavList>
             </NavListWrap>

@@ -5,12 +5,15 @@ import Avatar from "@mui/material/Avatar";
 function Post() {
   return (
     <div className="post">
-      <Avatar
-      className="post__avatar"
-      alt="Viren"
-      src="/static/images/avatar/1.jpg"
-      />
-      <h3>Username</h3>
+      <div className="post__header">
+        <Avatar
+          className="post__avatar"
+          alt="Viren"
+          src="/static/images/avatar/1.jpg"
+        />
+        <h3>Username</h3>
+      </div>
+      
       <img
         className="post__image"
         src="https://wallpapers.com/wallpapers/switzerland-landscape-painting-sb42zwr6hsytdv2u.html"
