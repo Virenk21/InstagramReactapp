@@ -17,7 +17,9 @@ function Post() {
       <img
         className="post__image"
         src="https://wallpapers.com/wallpapers/switzerland-landscape-painting-sb42zwr6hsytdv2u.html"
-        alt=""/>
+        alt=""
+      />
+      
       <h4 className="post__text">
         <strong>VIREN....</strong> Keep going viren
       </h4>

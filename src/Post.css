@@ -1,12 +1,9 @@
 .post {
     background-color: white;
-    max-width: 500px;
+    max-width: 800px;
     border: 1px solid lightgray;
 
 }
-
-
-
 
 .post__image {
     width: 50%;
@@ -17,7 +14,7 @@
 .post__text {
     font-weight: normal;
     padding: 20px;
-}
+    }
 .post__header {
     display: flex;
     align-items: center;
