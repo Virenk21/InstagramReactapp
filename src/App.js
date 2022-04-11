@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import "./App.css";
 import styled from "styled-components";
 import Post from "./Post";
 import Header from "./Header";
 
-
 function App() {
   const [posts, setPosts] = useState([
     {
-      username: "innocentviren", caption:"wow it works"
+      username: "innocentviren",
+      caption: "wow it works",
     },
-    {}
+    { username: "innocentviren",
+      caption: "wow it works" 
+    },
   ]);
   return (
     <div className="app">
@@ -57,6 +59,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
