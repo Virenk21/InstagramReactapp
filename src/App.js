@@ -29,31 +29,8 @@ function App() {
         caption="Wow it works"
         imageUrl="https://images-eu.ssl-images-amazon.com/images/I/41+grDTP2FL._AC_UL116_SR116,116_.jpg"
       />
-      <Post
-        username="virenkidding"
-        caption="Wow it works"
-        imageUrl="https://images-eu.ssl-images-amazon.com/images/I/41+grDTP2FL._AC_UL116_SR116,116_.jpg"
-      />
-      <Post
-        username="virenkidding"
-        caption="Wow it works"
-        imageUrl="https://images-eu.ssl-images-amazon.com/images/I/41+grDTP2FL._AC_UL116_SR116,116_.jpg"
-      />
-      <Post
-        username="virenkidding"
-        caption="Wow it works"
-        imageUrl="https://images-eu.ssl-images-amazon.com/images/I/41+grDTP2FL._AC_UL116_SR116,116_.jpg"
-      />
-      <Post
-        username="virenkidding"
-        caption="Wow it works"
-        imageUrl="https://images-eu.ssl-images-amazon.com/images/I/41+grDTP2FL._AC_UL116_SR116,116_.jpg"
-      />
-      <Post
-        username="virenkidding"
-        caption="Wow it works"
-        imageUrl="https://images-eu.ssl-images-amazon.com/images/I/41+grDTP2FL._AC_UL116_SR116,116_.jpg"
-      />
+      <img src="https://wallpapercave.com/wp/wp4565526.jpg" />
+      <h4>beautiful day</h4>
       <img src="https://wallpapercave.com/wp/wp4565526.jpg" />
       <h4>beautiful day</h4>
     </div>

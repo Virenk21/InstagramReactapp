@@ -12,18 +12,8 @@ function Post({ username, caption, imageurl }) {
           src="/static/images/avatar/1.jpg"
         />
         <h3>{username}</h3>
-      </div>
+             </div>
 
-      <img
-        className="post__image"
-        src="https://wallpapers.com/wallpapers/switzerland-landscape-painting-sb42zwr6hsytdv2u.html"
-        alt=""
-      />
-      <img
-        className="post__image"
-        src="https://wallpapers.com/wallpapers/switzerland-landscape-painting-sb42zwr6hsytdv2u.html"
-        alt=""
-      />
       <img
         className="post__image"
         src="https://wallpapers.com/wallpapers/switzerland-landscape-painting-sb42zwr6hsytdv2u.html"
