@@ -34,6 +34,12 @@ function App() {
       <h4>lightning</h4>
       <img src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055__340.jpg" />
       <h4>clouds</h4>
+      <img src="https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__340.jpg" />
+      <h4>water_tree</h4>
+      <img src="https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712__340.jpg" />
+      <h4>boat</h4>
+      <img src="https://cdn.pixabay.com/photo/2014/08/15/11/29/beach-418742__340.jpg" />
+      <h4>bay</h4>
     </div>
   );
 }
