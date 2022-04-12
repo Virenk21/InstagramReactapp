@@ -23,7 +23,6 @@ function App() {
           alt=""
         />
       </div>
-
       <Post
         username="virenkidding"
         caption="Wow it works"
@@ -31,8 +30,10 @@ function App() {
       />
       <img src="https://wallpapercave.com/wp/wp4565526.jpg" />
       <h4>beautiful day</h4>
-      <img src="https://wallpapercave.com/wp/wp4565526.jpg" />
-      <h4>beautiful day</h4>
+      <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg" />
+      <h4>lightning</h4>
+      <img src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055__340.jpg" />
+      <h4>clouds</h4>
     </div>
   );
 }
