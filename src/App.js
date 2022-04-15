@@ -7,10 +7,10 @@ import Header from "./Header";
 function App() {
   const [posts, setPosts] = useState([
     {
-      username: "innocentviren",
+      username: "virenkdogra",
       caption: "wow it works",
     },
-    { username: "innocentviren",
+    { username: "virenkdogra",
       caption: "wow it works" 
     },
   ]);
