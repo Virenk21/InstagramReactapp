@@ -29,6 +29,9 @@ function Post({ username, caption, imageurl }) {
       <h4 className="post__text">
         <strong>VIREN....</strong> Keep going viren
       </h4>
+      <h4 className="post__text">
+        <strong>VIREN....</strong> Keep going viren
+      </h4>
     </div>
   );
 }
