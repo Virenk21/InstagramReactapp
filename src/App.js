@@ -40,6 +40,7 @@ function App() {
       <h4>boat</h4>
       <img src="https://cdn.pixabay.com/photo/2014/08/15/11/29/beach-418742__340.jpg" />
       <h4>bay</h4>
+      <Header />
     </div>
   );
 }
