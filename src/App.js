@@ -13,6 +13,11 @@ function App() {
     },
     { username: "virenkdogra", caption: "wow it works" },
   ]);
+
+  useEffect (() => {
+
+
+  }, [posts])
   return (
     <div className="app">
       <div className="app__header">
