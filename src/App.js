@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import styled from "styled-components";
 import Post from "./Post";
@@ -9,10 +9,9 @@ function App() {
     {
       username: "virenkdogra",
       caption: "wow it works",
+      imageUrl:"https://bsmedia.business-standard.com/_media/bs/img/article/2020-12/11/full/1607655600-5776.jpg",
     },
-    { username: "virenkdogra",
-      caption: "wow it works" 
-    },
+    { username: "virenkdogra", caption: "wow it works" },
   ]);
   return (
     <div className="app">
