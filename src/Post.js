@@ -11,6 +11,11 @@ function Post({ username, caption, imageurl }) {
           alt="Viren"
           src="/static/images/avatar/1.jpg"
         />
+        <Avatar
+          className="post__avatar"
+          alt="Viren"
+          src="/static/images/avatar/1.jpg"
+        />
         <h3>{username}</h3>
         <h3>{username}</h3>
         <h3>{username}</h3>
